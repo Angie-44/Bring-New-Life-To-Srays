@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+  font-family: Comfortaa;
+  src:url(Comfortaa-Regular.ttf)
+}
+body {
+  font-family: Comfortaa;
+  background-color: #f8fbe4;
+}
+nav {
+  height: 80px;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #5a163a;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #d57eac;
+}
+.menu img {
+  float: right;
+}
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+}
+.submit {
+  background-color: #fdd8ec;
+  color: #5a163a;
+  border: solid 2px;
+  border-color: #da81b0;
+}
+.contact_form {
+  color: #5a163a;
+  text-align: left;
+  background-color: #fbe4f0;
+  border: solid;
+  border-color: #da81b0;
+  margin-top: 50px;
+  padding: 30px 15px 30px 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.contact_form i {
+  float: right;
+  margin-right: 25px;
+}
+.footer {
+  padding:30px 0;
+  background-color: #5a163a;
+  text-align: center;
+}
+.footer a {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.footer p {
+  color: white;
+}
+.footer a:hover {
+  background-color: #d57eac;
+}
+.footer img {
+  float: left;
+  margin-left: 20px;
+}
+.fox img {
+  float: right;
+  margin-right: 20px;
+  position: relative; bottom: 80px;
+}
